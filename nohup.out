@@ -1,0 +1,138 @@
+INFO  Start processing
+INFO  Hexo is running at http://localhost:80/. Press Ctrl+C to stop.
+INFO  Start processing
+INFO  Hexo is running at http://localhost:80/. Press Ctrl+C to stop.
+res null { stdout: 'INFO  Start processing\nINFO  Files loaded in 3.7 s\nINFO  Generated: content.json\nINFO  Generated: search.xml\nINFO  Generated: about/index.html\nINFO  Generated: archives/index.html\nINFO  Generated: tags/index.html\nINFO  Generated: 2018/05/05/free-soft/index.html\nINFO  Generated: 2018/05/14/hello-world/index.html\nINFO  Generated: 2018/05/14/pring-boot配置大全/index.html\nINFO  Generated: archives/2018/index.html\nINFO  Generated: archives/2018/04/index.html\nINFO  Generated: 2018/04/22/first/index.html\nINFO  Generated: 2018/04/26/一道美食/index.html\nINFO  Generated: 2018/04/22/大道至简/index.html\nINFO  Generated: archives/2018/05/index.html\nINFO  Generated: index.html\nINFO  Generated: tags/python/index.html\nINFO  Generated: categories/nodejs/index.html\nINFO  Generated: categories/python/index.html\nINFO  Generated: categories/生活/index.html\nINFO  Generated: tags/shadowsocks/index.html\nINFO  Generated: tags/美食/index.html\nINFO  Generated: tags/hexo/index.html\nINFO  Generated: 2018/05/14/shadowsocks/index.html\nINFO  23 files generated in 525 ms\nINFO  Deploying: git\nINFO  Clearing .deploy_git folder...\nINFO  Copying files from public folder...\nINFO  Copying files from extend dirs...\n[master b1898b0] Site updated: 2018-05-14 06:00:28\n Committer: root <root@host.localdomain>\nYour name and email address were configured automatically based\non your username and hostname. Please check that they are accurate.\nYou can suppress this message by setting them explicitly:\n\n    git config --global user.name "Your Name"\n    git config --global user.email you@example.com\n\nAfter doing this, you may fix the identity used for this commit with:\n\n    git commit --amend --reset-author\n\n 22 files changed, 22 insertions(+), 22 deletions(-)\nBranch master set up to track remote branch master from git@github.com:wjonath/wjonath.github.io.git.\nINFO  Deploy done: git\n',
+  stderr: 'Warning: Permanently added the RSA host key for IP address \'192.30.255.113\' to the list of known hosts.\r\nTo git@github.com:wjonath/wjonath.github.io.git\n   6b343f1..b1898b0  HEAD -> master\n' }
+res null { stdout: 'INFO  Start processing\nINFO  Files loaded in 8.19 s\nINFO  Generated: content.json\nINFO  Generated: search.xml\nINFO  Generated: about/index.html\nINFO  Generated: archives/index.html\nINFO  Generated: tags/index.html\nINFO  Generated: 2018/05/14/pring-boot配置大全/index.html\nINFO  Generated: 2018/05/14/hello-world/index.html\nINFO  Generated: 2018/05/05/free-soft/index.html\nINFO  Generated: 2018/04/26/一道美食/index.html\nINFO  Generated: 2018/04/22/大道至简/index.html\nINFO  Generated: 2018/04/22/first/index.html\nINFO  Generated: archives/2018/index.html\nINFO  Generated: archives/2018/04/index.html\nINFO  Generated: archives/2018/05/index.html\nINFO  Generated: categories/生活/index.html\nINFO  Generated: categories/python/index.html\nINFO  Generated: categories/nodejs/index.html\nINFO  Generated: index.html\nINFO  Generated: tags/python/index.html\nINFO  Generated: tags/shadowsocks/index.html\nINFO  Generated: tags/美食/index.html\nINFO  Generated: tags/hexo/index.html\nINFO  Generated: 2018/05/14/shadowsocks/index.html\nINFO  Generated: img/AliPayQR.png\nINFO  Generated: img/BTCQR.png\nINFO  Generated: img/WeChatQR.png\nINFO  Generated: img/alipay.svg\nINFO  Generated: img/bitcoin.svg\nINFO  Generated: img/github.svg\nINFO  Generated: img/like.svg\nINFO  Generated: img/paypal.svg\nINFO  Generated: img/wechat.svg\nINFO  Generated: css/donate.css\nINFO  Generated: donate/index.html\nINFO  Generated: css/default.css\nINFO  Generated: css/style.css\nINFO  Generated: js/codeblock-resizer.js\nINFO  Generated: js/donate.js\nINFO  Generated: js/fancybox.js\nINFO  Generated: js/search.js\nINFO  Generated: js/share.js\nINFO  Generated: js/smartresize.js\nINFO  Generated: js/totop.js\nINFO  Generated: js/gitment.browser.js\nINFO  44 files generated in 460 ms\nINFO  Deploying: git\nINFO  Clearing .deploy_git folder...\nINFO  Copying files from public folder...\nINFO  Copying files from extend dirs...\n# On branch master\nnothing to commit, working directory clean\nBranch master set up to track remote branch master from git@github.com:wjonath/wjonath.github.io.git.\nINFO  Deploy done: git\n',
+  stderr: 'Everything up-to-date\n' }
+TypeError: next is not a function
+    at /data/github/blog-hexo/node_modules/hexo-admin/api.js:318:25
+    at /data/github/blog-hexo/node_modules/hexo-admin/api.js:141:7
+    at call (/data/github/blog-hexo/node_modules/connect/index.js:239:7)
+    at next (/data/github/blog-hexo/node_modules/connect/index.js:183:5)
+    at next (/data/github/blog-hexo/node_modules/connect/index.js:161:14)
+    at next (/data/github/blog-hexo/node_modules/connect/index.js:161:14)
+    at next (/data/github/blog-hexo/node_modules/connect/index.js:161:14)
+    at next (/data/github/blog-hexo/node_modules/connect/index.js:161:14)
+    at next (/data/github/blog-hexo/node_modules/connect/index.js:161:14)
+    at next (/data/github/blog-hexo/node_modules/connect/index.js:161:14)
+    at next (/data/github/blog-hexo/node_modules/connect/index.js:161:14)
+    at next (/data/github/blog-hexo/node_modules/connect/index.js:161:14)
+    at jsonParser (/data/github/blog-hexo/node_modules/body-parser/lib/types/json.js:109:7)
+    at call (/data/github/blog-hexo/node_modules/connect/index.js:239:7)
+    at next (/data/github/blog-hexo/node_modules/connect/index.js:183:5)
+    at SendStream.error (/data/github/blog-hexo/node_modules/serve-static/index.js:121:7)
+    at emitOne (events.js:96:13)
+    at SendStream.emit (events.js:188:7)
+    at SendStream.error (/data/github/blog-hexo/node_modules/send/index.js:270:17)
+    at SendStream.onStatError (/data/github/blog-hexo/node_modules/send/index.js:421:12)
+    at next (/data/github/blog-hexo/node_modules/send/index.js:736:16)
+    at onstat (/data/github/blog-hexo/node_modules/send/index.js:725:14)
+TypeError: next is not a function
+    at /data/github/blog-hexo/node_modules/hexo-admin/api.js:318:25
+    at /data/github/blog-hexo/node_modules/hexo-admin/api.js:141:7
+    at call (/data/github/blog-hexo/node_modules/connect/index.js:239:7)
+    at next (/data/github/blog-hexo/node_modules/connect/index.js:183:5)
+    at next (/data/github/blog-hexo/node_modules/connect/index.js:161:14)
+    at next (/data/github/blog-hexo/node_modules/connect/index.js:161:14)
+    at next (/data/github/blog-hexo/node_modules/connect/index.js:161:14)
+    at next (/data/github/blog-hexo/node_modules/connect/index.js:161:14)
+    at next (/data/github/blog-hexo/node_modules/connect/index.js:161:14)
+    at next (/data/github/blog-hexo/node_modules/connect/index.js:161:14)
+    at next (/data/github/blog-hexo/node_modules/connect/index.js:161:14)
+    at next (/data/github/blog-hexo/node_modules/connect/index.js:161:14)
+    at jsonParser (/data/github/blog-hexo/node_modules/body-parser/lib/types/json.js:109:7)
+    at call (/data/github/blog-hexo/node_modules/connect/index.js:239:7)
+    at next (/data/github/blog-hexo/node_modules/connect/index.js:183:5)
+    at SendStream.error (/data/github/blog-hexo/node_modules/serve-static/index.js:121:7)
+    at emitOne (events.js:96:13)
+    at SendStream.emit (events.js:188:7)
+    at SendStream.error (/data/github/blog-hexo/node_modules/send/index.js:270:17)
+    at SendStream.onStatError (/data/github/blog-hexo/node_modules/send/index.js:421:12)
+    at next (/data/github/blog-hexo/node_modules/send/index.js:736:16)
+    at onstat (/data/github/blog-hexo/node_modules/send/index.js:725:14)
+TypeError: next is not a function
+    at /data/github/blog-hexo/node_modules/hexo-admin/api.js:318:25
+    at /data/github/blog-hexo/node_modules/hexo-admin/api.js:141:7
+    at call (/data/github/blog-hexo/node_modules/connect/index.js:239:7)
+    at next (/data/github/blog-hexo/node_modules/connect/index.js:183:5)
+    at next (/data/github/blog-hexo/node_modules/connect/index.js:161:14)
+    at next (/data/github/blog-hexo/node_modules/connect/index.js:161:14)
+    at next (/data/github/blog-hexo/node_modules/connect/index.js:161:14)
+    at next (/data/github/blog-hexo/node_modules/connect/index.js:161:14)
+    at next (/data/github/blog-hexo/node_modules/connect/index.js:161:14)
+    at next (/data/github/blog-hexo/node_modules/connect/index.js:161:14)
+    at next (/data/github/blog-hexo/node_modules/connect/index.js:161:14)
+    at next (/data/github/blog-hexo/node_modules/connect/index.js:161:14)
+    at jsonParser (/data/github/blog-hexo/node_modules/body-parser/lib/types/json.js:109:7)
+    at call (/data/github/blog-hexo/node_modules/connect/index.js:239:7)
+    at next (/data/github/blog-hexo/node_modules/connect/index.js:183:5)
+    at SendStream.error (/data/github/blog-hexo/node_modules/serve-static/index.js:121:7)
+    at emitOne (events.js:96:13)
+    at SendStream.emit (events.js:188:7)
+    at SendStream.error (/data/github/blog-hexo/node_modules/send/index.js:270:17)
+    at SendStream.onStatError (/data/github/blog-hexo/node_modules/send/index.js:421:12)
+    at next (/data/github/blog-hexo/node_modules/send/index.js:736:16)
+    at onstat (/data/github/blog-hexo/node_modules/send/index.js:725:14)
+in pages /cjh63vc4t000ovbb7gcqnntms
+in pages /cjh63vc4t000ovbb7gcqnntms
+ERROR Process failed: categories/index.md
+YAMLException: end of the stream or a document separator is expected at line 2, column 1:
+    date: 2018-05-14 06:29:10
+    ^
+    at generateError (/data/github/blog-hexo/node_modules/js-yaml/lib/js-yaml/loader.js:165:10)
+    at throwError (/data/github/blog-hexo/node_modules/js-yaml/lib/js-yaml/loader.js:171:9)
+    at readDocument (/data/github/blog-hexo/node_modules/js-yaml/lib/js-yaml/loader.js:1512:5)
+    at loadDocuments (/data/github/blog-hexo/node_modules/js-yaml/lib/js-yaml/loader.js:1548:5)
+    at Object.load (/data/github/blog-hexo/node_modules/js-yaml/lib/js-yaml/loader.js:1569:19)
+    at parseYAML (/data/github/blog-hexo/node_modules/hexo-front-matter/lib/front_matter.js:80:21)
+    at parse (/data/github/blog-hexo/node_modules/hexo-front-matter/lib/front_matter.js:56:12)
+    at Promise.all.spread (/data/github/blog-hexo/node_modules/hexo/lib/plugins/processor/asset.js:34:20)
+    at tryCatcher (/data/github/blog-hexo/node_modules/bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/data/github/blog-hexo/node_modules/bluebird/js/release/promise.js:509:35)
+    at Promise._settlePromise (/data/github/blog-hexo/node_modules/bluebird/js/release/promise.js:569:18)
+    at Promise._settlePromise0 (/data/github/blog-hexo/node_modules/bluebird/js/release/promise.js:614:10)
+    at Promise._settlePromises (/data/github/blog-hexo/node_modules/bluebird/js/release/promise.js:693:18)
+    at Promise._fulfill (/data/github/blog-hexo/node_modules/bluebird/js/release/promise.js:638:18)
+    at PromiseArray._resolve (/data/github/blog-hexo/node_modules/bluebird/js/release/promise_array.js:126:19)
+    at PromiseArray._promiseFulfilled (/data/github/blog-hexo/node_modules/bluebird/js/release/promise_array.js:144:14)
+    at PromiseArray._iterate (/data/github/blog-hexo/node_modules/bluebird/js/release/promise_array.js:114:31)
+    at PromiseArray.init [as _init] (/data/github/blog-hexo/node_modules/bluebird/js/release/promise_array.js:78:10)
+    at Promise._settlePromise (/data/github/blog-hexo/node_modules/bluebird/js/release/promise.js:566:21)
+    at Promise._settlePromise0 (/data/github/blog-hexo/node_modules/bluebird/js/release/promise.js:614:10)
+    at Promise._settlePromises (/data/github/blog-hexo/node_modules/bluebird/js/release/promise.js:693:18)
+    at Promise._fulfill (/data/github/blog-hexo/node_modules/bluebird/js/release/promise.js:638:18)
+    at PromiseArray._resolve (/data/github/blog-hexo/node_modules/bluebird/js/release/promise_array.js:126:19)
+    at PromiseArray._promiseFulfilled (/data/github/blog-hexo/node_modules/bluebird/js/release/promise_array.js:144:14)
+    at Promise._settlePromise (/data/github/blog-hexo/node_modules/bluebird/js/release/promise.js:574:26)
+ERROR Process failed: categories/index.md
+YAMLException: end of the stream or a document separator is expected at line 2, column 1:
+    date: 2018-05-14 06:29:10
+    ^
+    at generateError (/data/github/blog-hexo/node_modules/js-yaml/lib/js-yaml/loader.js:165:10)
+    at throwError (/data/github/blog-hexo/node_modules/js-yaml/lib/js-yaml/loader.js:171:9)
+    at readDocument (/data/github/blog-hexo/node_modules/js-yaml/lib/js-yaml/loader.js:1512:5)
+    at loadDocuments (/data/github/blog-hexo/node_modules/js-yaml/lib/js-yaml/loader.js:1548:5)
+    at Object.load (/data/github/blog-hexo/node_modules/js-yaml/lib/js-yaml/loader.js:1569:19)
+    at parseYAML (/data/github/blog-hexo/node_modules/hexo-front-matter/lib/front_matter.js:80:21)
+    at parse (/data/github/blog-hexo/node_modules/hexo-front-matter/lib/front_matter.js:56:12)
+    at Promise.all.spread (/data/github/blog-hexo/node_modules/hexo/lib/plugins/processor/asset.js:34:20)
+    at tryCatcher (/data/github/blog-hexo/node_modules/bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/data/github/blog-hexo/node_modules/bluebird/js/release/promise.js:509:35)
+    at Promise._settlePromise (/data/github/blog-hexo/node_modules/bluebird/js/release/promise.js:569:18)
+    at Promise._settlePromise0 (/data/github/blog-hexo/node_modules/bluebird/js/release/promise.js:614:10)
+    at Promise._settlePromises (/data/github/blog-hexo/node_modules/bluebird/js/release/promise.js:693:18)
+    at Promise._fulfill (/data/github/blog-hexo/node_modules/bluebird/js/release/promise.js:638:18)
+    at PromiseArray._resolve (/data/github/blog-hexo/node_modules/bluebird/js/release/promise_array.js:126:19)
+    at PromiseArray._promiseFulfilled (/data/github/blog-hexo/node_modules/bluebird/js/release/promise_array.js:144:14)
+    at PromiseArray._iterate (/data/github/blog-hexo/node_modules/bluebird/js/release/promise_array.js:114:31)
+    at PromiseArray.init [as _init] (/data/github/blog-hexo/node_modules/bluebird/js/release/promise_array.js:78:10)
+    at Promise._settlePromise (/data/github/blog-hexo/node_modules/bluebird/js/release/promise.js:566:21)
+    at Promise._settlePromise0 (/data/github/blog-hexo/node_modules/bluebird/js/release/promise.js:614:10)
+    at Promise._settlePromises (/data/github/blog-hexo/node_modules/bluebird/js/release/promise.js:693:18)
+    at Promise._fulfill (/data/github/blog-hexo/node_modules/bluebird/js/release/promise.js:638:18)
+    at PromiseArray._resolve (/data/github/blog-hexo/node_modules/bluebird/js/release/promise_array.js:126:19)
+    at PromiseArray._promiseFulfilled (/data/github/blog-hexo/node_modules/bluebird/js/release/promise_array.js:144:14)
+    at Promise._settlePromise (/data/github/blog-hexo/node_modules/bluebird/js/release/promise.js:574:26)
+in pages /cjh63vc4t000ovbb7gcqnntms

@@ -79,5 +79,12 @@ theme: maupassant
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: https://github.com/wjonath/wang.github.io.git
+  repo: git@github.com:wjonath/wjonath.github.io.git 
   branch: master
+
+# hexo-admin authentification
+admin:
+  username: jonath
+  password_hash: $2a$10$r4u/IEyEHODzLwL2XGWq4uQSw2uFQ.YCEjq6CMaXUambeTNGwVlDC
+  secret: my super secret phrase
+  deployCommand: './hexo-deploy'

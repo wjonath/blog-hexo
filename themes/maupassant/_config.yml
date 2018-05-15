@@ -59,6 +59,9 @@ menu:
   - page: home
     directory: .
     icon: fa-home
+  - page: categories
+    directory: categories/
+    icon: fa-folder
   - page: archive
     directory: archives/
     icon: fa-archive
@@ -78,8 +81,10 @@ widgets: ## Six widgets in sidebar provided: search, category, tag, recent_posts
   - links
 
 links:
-  - title: site-name1
-    url: http://www.example1.com/
+  - title: github 
+    url: http://wjonath.github.io/
+  - title: iqoo
+    url: http://www.iqoo.cn
 
 timeline:
   - num: 1
